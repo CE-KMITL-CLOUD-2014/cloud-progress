@@ -17,7 +17,7 @@ request({
     var count = 0;
     for (var i=0;i<parsed.length;i++) {
       x = parsed[i];
-      if (x.clone_url.indexOf('cloud-proposal') == -1) {
+      if (x.clone_url.indexOf('cloud-') == -1) {
         console.log(x.clone_url);
         stream.write('git submodule add '+x.clone_url+'\n');
 	count++;
