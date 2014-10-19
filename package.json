@@ -1,0 +1,6 @@
+{
+ "name": "cloud-progress",
+ "dependencies": {
+   "request": "*"
+ }
+}
